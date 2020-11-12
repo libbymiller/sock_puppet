@@ -13,8 +13,9 @@ The steps are:
 
  Thirdly, use the instructions below to customise it and make it look cool.
 
-You will need:
+# You will need:
 
+A server
  * access to a server that can run node, configurable to use https
 
 Pi stuff
