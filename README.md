@@ -1,6 +1,6 @@
 # Introduction
 
-This is a presence robot so you can "be" somewhere remote, and listen, talk and optionally see what's going on in the remote location.
+This is a presence robot - the idea is you can "be" somewhere remote, and listen, talk and optionally see what's going on in the remote location.
 
 You need a person in the remote location to plug it in for you. Then you get a notification with a unique URL for you to join via a browser on a laptop or phone. Once there you can move the camera and change "your" expression.
 
@@ -20,12 +20,12 @@ The steps are:
 
 # Decisions
 
-There are a couple of designs described here, but you could make your own of course. Key decision is whether you want your bot to be able to see or whether just beaing able to hear and speak is enough. "Rabbit" is audio only, and "Sock creature" can see one end. To make it cheaper and easier to make, your face is never shown.
+There are a couple of designs described here, but you could make your own of course. Key decision is whether you want your bot to be able to see or whether just beaing able to hear and speak is enough. "Rabbit" is audio only, and "Sock creature" can see one end. To make it cheaper and easier to make, your face is never shown on the bot, but you can pull simple faces via the led matrix.
 
 # You will need:
 
 A server
- * access to a server that can run node, configurable to use https
+ * access to a server that can run node, configurable to use https (instructions below)
 
 Pi stuff
  * a [Pi 3 B plus](https://shop.pimoroni.com/products/raspberry-pi-3-b-plus) (£34), [Micro SD card](https://shop.pimoroni.com/products/noobs-32gb-microsd-card-3-1?variant=31703694245971) (8GB or more, £9), a power supply (ideally [an official Pi one](https://shop.pimoroni.com/products/raspberry-pi-universal-power-supply), £8)
@@ -36,7 +36,7 @@ Pi stuff
  * a USB A speaker Mic (£50-150) - These can be expensive because they are businessy, but they are much the best thing to use. [Sennheiser SP20](https://www.onedirect.co.uk/sennheiser/sennheiser-sp-20-ml-portable-speakerphone) is the best I've used (currebntly £100-odd), [Jabra 410 works](https://www.amazon.co.uk/Jabra-SPEAK-Portable-speakerphone-7410-109/dp/B007SHJIO2), though I've had power problems with my Jabra in the past. You don't need bluetooth (Bluetooth can be difficult on the Pi). Kaysuda and others do ones around £50 - I'm currently testing these. It needs to be a *speaker-mic* (termed 'speakerphone') not a condensing mic which sometimes look similar. 
 
 Decorations
- * a good pot to put it in. I used [a Sunpet 1000ml sweet jar like this one](http://www.alsafifalcongroup.com/images/sunpet-big-9.jpg) which i got from a our local hardware store for 89p. This [Systema jar would also be a good fit](https://sistemaplastics.com/products/klip-it-utility/900ml-cracker). Plastic is better than metal I think, on the grounds that unexpected shorts are less probable with plastic.
+ * a good pot to put it in. I used [a Sunpet 1000ml sweet jar like this one](http://www.alsafifalcongroup.com/images/sunpet-big-9.jpg) which i got from a our local hardware store for 89p. This [Systema jar is also be a good fit](https://sistemaplastics.com/products/klip-it-utility/900ml-cracker). Plastic is better than metal I think, on the grounds that unexpected shorts are less probable with plastic.
  * the important thing is that you can get the Pi 3 with the power supply and usb speaker connected into the top. ??Width??
  
 Sock creature:
@@ -54,7 +54,7 @@ Tools
  * a gluegun or strong glue
  * a soldering iron (there's not much soldering - just for the led matrix)
 
-The total is about £235 assuming you have tools. Maybe £50 less if you can find a cheaper USB mic / speaker.
+The total is about £235 assuming you have tools. Maybe £50 less if you can find a cheaper USB mic / speaker. Of course you might have some of the stuff lying round...
 
 # Server
 
