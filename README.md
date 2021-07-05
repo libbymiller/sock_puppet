@@ -10,6 +10,10 @@ You should be able to make this in an hour or so. There's minimal soldering, but
 
 You need to be able to use node and have a server to put this on (if you know me, ask and you can borrow mine for a bit and so skip this part).
 
+
+<img src="images/sockpuppet_portrait.png" width="500" alt="portrait of an example sockpuppet"/>
+
+
 The steps are:
 
  * First, create a server.
