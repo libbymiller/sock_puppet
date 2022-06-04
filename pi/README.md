@@ -105,7 +105,7 @@ contents:
 if you need to rotate the camera (as you will if using the pan-tilt 
 hat, as it places it upside down), put
 
-    v4l2-ctl --set-ctrl-rotate=270                                           
+    v4l2-ctl --set-ctrl rotate=180                                           
 
 into `sudo nano /etc/rc.local`
 
